@@ -4,7 +4,7 @@ body {
 }
 
 #Home {
-    background-image: url(/images/cover-rotating-words.jpg);
+    background-image: url('/images/cover-rotating-words.jpg');
     height: 100vh;
     clip-path: polygon(100% 0%, 0% 0%, 0% 98%, 100% 75%);
     background-size: cover;
@@ -20,7 +20,7 @@ body {
         position: absolute;
         top: 0;
         left: 0;
-        background: rgbaa(0, 0, 0, 0.6);
+        background: rgba(0, 0, 0, 0.6);
     }
     .header-logo {
         position: relative;
